@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"valueTypes.sol": {
-			"keccak256": "0x02894f2726d0103fd43248596372570d2c5d687bcf3a16bcb5043eb1bd7b2176",
+			"keccak256": "0x64a1e360d04d4764ebf43908427daf13d20f8a2b3456f78997bdd764490dd7a0",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://f59d7f53400be341d8259c1bd31592282e8e72271f5c9553f73321ec07c18779",
-				"dweb:/ipfs/QmZdy9zF9voPMtrPNYCxscDMFJsYSRyJVbX4Y159M8hnr3"
+				"bzz-raw://897fc8397b3a44ca623d3874eaa9925bc15ea86bcccf2db2e536c006f8b4ab00",
+				"dweb:/ipfs/QmZG13Nc9cvCotoviB8LqKHR2tC59z22NNLxRMnVEiepCc"
 			]
 		}
 	},
