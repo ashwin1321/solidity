@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"valueTypes.sol": "Variable"
+			"variables.sol": "variables"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"valueTypes.sol": {
-			"keccak256": "0x293deb516db334c9f9abb8056068a32679adcf41bca54401e6fdf6c3136832d7",
+		"variables.sol": {
+			"keccak256": "0xf6bdb389efd04b24b5043c8ba6b2aa8b6583537e75a091a3aad2919724714884",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://c41ed7bffa8713c94980e8020f2a228a96bd87f5ca2b7ace472a1e6c84fc260a",
-				"dweb:/ipfs/QmQQYAADMviuEiHjwv8bvU5nDc4t6bFicpRDxVPBVwVTVK"
+				"bzz-raw://8d6b3cbb2901f496f3b754dd9e124cbe487d0c7bdd0a4fd5ad349f6499af1d83",
+				"dweb:/ipfs/QmaHqbaV27C7WRKzarMQg8vuDVguDUiDS1pvdV6JtQU8VN"
 			]
 		}
 	},
