@@ -13,11 +13,22 @@ contract variables {
     // NOTE: THERE IS NO CONCEPT OF UNDEFINED OR NULL
 
 
+    uint public val = 4;                  // state variables
 
-    // SCOPE VARIABLES
+    function add() public pure returns(uint){
 
-    // public  -- can be accessed internally as well as via message
-    // Internal -- can be accessed only internally from the current contract or contract deriving from it without using this.
-    // Private -- can be accessed only internally from current contract they are defined not in the derived contract from it.
-    
+        uint val2 = 3;                   // local variables  
+        return val2;
+    }
+
+    function global() public view returns(uint){
+
+        // https://docs.soliditylang.org/en/v0.8.17/units-and-global-variables.html
+        // NOTE: global variable k k xa herna mathi ko link ma janu hola. Dhanyabaad!
+         
+        //  return block.timestamp;   // current time dinxa
+        // return msg.sender;            // sender ko address dinxa, returns ma address rakhne yesma
+        return msg.sender.balance;
+    }
+
 } 
