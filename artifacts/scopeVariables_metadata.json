@@ -10,12 +10,31 @@
 				"name": "get",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -45,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"scopeVasriable.sol": "scopeVariables"
+			"memory.sol": "scopeVariables"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -59,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"scopeVasriable.sol": {
-			"keccak256": "0x5034e953aed826a92dd0a306f10681b9208bed756d43cde912df594dfa9829bd",
+		"memory.sol": {
+			"keccak256": "0xc24b937635ef20afe7cd7ba247ee98b04f09dbb86d46c9ed8f0092161845107b",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://1bb04a39c97cd514f5ad7a8fee91e115238bc9a5c09cdfa351636989c2e6c73c",
-				"dweb:/ipfs/QmWfVv2qwUb67B8ZF4Ra9cfFvtUoYg78GtCfG6X3HKg2zH"
+				"bzz-raw://edff9aa91b3f10d89a9745437a094b49f6775fd08568ad4f69a646e5b288cd09",
+				"dweb:/ipfs/QmctkX9yBpvfGCUsADJU1SeYpQb184RrAUi9RnP7v79hvF"
 			]
 		}
 	},
