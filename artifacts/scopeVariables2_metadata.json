@@ -20,6 +20,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "get2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "val",
 				"outputs": [
 					{
@@ -45,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"scopeVasriable.sol": "scopeVariables"
+			"scopeVasriable.sol": "scopeVariables2"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
