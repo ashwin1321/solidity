@@ -6,52 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "a",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "arr",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "b",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -59,15 +13,48 @@
 						"type": "uint256"
 					}
 				],
-				"name": "num",
+				"name": "allstudents",
 				"outputs": [
 					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "class",
 						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_class",
+						"type": "uint256"
+					}
+				],
+				"name": "getStuent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -84,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"loops.sol": "loops"
+			"struct.sol": "Struct"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -98,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"loops.sol": {
-			"keccak256": "0xaa323187ab7505424c3d3686946b309338d0d37047a692a3f5e3f8201f847b1e",
+		"struct.sol": {
+			"keccak256": "0xc8e9990f18b2084aff206be239f79401297eafb197cd85557d47a54cf4530032",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://0d3d424afd62c42a4c3da72a7b3cded5649021e8edfde10eb0060859993049e7",
-				"dweb:/ipfs/Qmao6gV5aYyyFDKxhoZ9SKXRg8QkgtTscV5hJrojLHLLaW"
+				"bzz-raw://652b8605469808edc78d3c529830513d74e6ee106f214cd2563d947d8f8b0f8a",
+				"dweb:/ipfs/QmXgxmk7vEoMcBckpeuNtcjT4xjEo1Ruej51NjJ51HgZUh"
 			]
 		}
 	},
