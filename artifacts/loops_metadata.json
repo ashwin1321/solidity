@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.1+commit.df193b15"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -34,14 +34,8 @@
 			{
 				"inputs": [],
 				"name": "get",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,9 +52,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"operators.sol": "operators"
+			"loops.sol": "loops"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -72,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"operators.sol": {
-			"keccak256": "0x60a4a80698a965112562e12e5a6aa00c95b8d3dd03c44489eb09347e73c5e3d2",
+		"loops.sol": {
+			"keccak256": "0x1022b4f88c9826c73cd67b4b59b8dc0849e66230736b4e27b504eb6879d01790",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://61450ffbe229140828e393bd11f7ab1c177e2e532b9ad9f0a1bb62c3f067ee44",
-				"dweb:/ipfs/QmXYdy17TvLjMrTZn27pkXD1iUhoMFZkVCC2h4kWf1gGs2"
+				"bzz-raw://0df1d37771d81e4898a8ef3c548b7ba89a1a6ffd8bd098efb5579155b75191bb",
+				"dweb:/ipfs/QmcTXZDkACq38mrTgwGQWovBceyeuZUExNrdt6SanwMiUH"
 			]
 		}
 	},
