@@ -17,5 +17,12 @@ contract loops{
         for (uint i=0; i < 3; i++){
             a +=1;
         }
+
+        // array 
 }
+        uint[] public num = [1,2,3,4];
+        function arr()  public view returns(uint[] memory){
+            // return num.length;
+            return num;
+        }
 }
