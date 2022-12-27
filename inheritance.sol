@@ -32,3 +32,7 @@ contract child2 is hashing{            // hash bhanne file import gareko xa, ani
 
 
 }
+
+contract child3 is Base(3), hashing{           // yesari multiple inheritance garna milxa
+
+}

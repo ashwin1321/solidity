@@ -8,13 +8,41 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_pass",
+						"type": "string"
 					}
 				],
+				"name": "generatePass",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "password",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pass",
+						"type": "string"
+					}
+				],
+				"name": "sendMoney",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -30,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"inheritance.sol": "Base"
+			"inheritance.sol": "child3"
 		},
 		"evmVersion": "london",
 		"libraries": {},

@@ -81,11 +81,11 @@
 			]
 		},
 		"inheritance.sol": {
-			"keccak256": "0x9e8b40941fecd98fec87c90def29f94354279176f88b26f15afb40628e4fa056",
+			"keccak256": "0x213be20ee51ea0625b5bdc641bbfdd872febd06117137108423779ec8ca3ce35",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://5e069ffa719c0e94a398f488a62d846417fcc6ff3a46c34be77a6e62e34e379e",
-				"dweb:/ipfs/Qme1upWt1PbeFkhuhP3uDH64utS3b15dfJXxGY2RtMrR7J"
+				"bzz-raw://96f0f2d4b81c644a141ccd65e729b856403c5d67ae5cb8a4dade605d87a92ed2",
+				"dweb:/ipfs/QmQwYhX9DcWw6ySoTq5p1HyTWxXP7ZtE4CB4V5f7AJ9ZzU"
 			]
 		}
 	},
