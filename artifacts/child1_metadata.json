@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "val",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"virtual and override.sol": "loops"
+			"virtual and override.sol": "child1"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"virtual and override.sol": {
-			"keccak256": "0xd9ea7bf55048f69d3efa1fd7317aebe7ce137b1a48c8e9ae44183a5e7ae82846",
+			"keccak256": "0xd4ce4e29decd158b47a33006a788082cdc24c7b4567fce865a75c69c8194a57e",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://6b2a6d7148b24886c7367ca1d37867a277ac83d78c480ed83390e5173ca4d218",
-				"dweb:/ipfs/QmRhxubEFtzsGVRUgoVAJCNVyRbvJyv6RkbALhnK6anRf4"
+				"bzz-raw://256cd213ae1bb1d31f86bcff5c2b5f51909d1bfac467b454792e8e6525ebb288",
+				"dweb:/ipfs/QmX5fZmAkrpoP68aRTzDdYzms6hbY5bXcBXuZDEJVbR6ve"
 			]
 		}
 	},

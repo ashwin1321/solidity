@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"virtual and override.sol": "loops"
+			"virtual and override.sol": "virtualAndOverride"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"virtual and override.sol": {
-			"keccak256": "0xd9ea7bf55048f69d3efa1fd7317aebe7ce137b1a48c8e9ae44183a5e7ae82846",
+			"keccak256": "0xfb296b26f9c725db27e102f4dd64c42b27fbcc9ee9ff16acaa61cf6b4302cbc4",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://6b2a6d7148b24886c7367ca1d37867a277ac83d78c480ed83390e5173ca4d218",
-				"dweb:/ipfs/QmRhxubEFtzsGVRUgoVAJCNVyRbvJyv6RkbALhnK6anRf4"
+				"bzz-raw://986e838b659f7a151c5ea15f0977ca9d874cd3749aa5dd22c299eb221fe84c60",
+				"dweb:/ipfs/QmSuSCYejXvNNWf7SQLxTupTKyDv736XHHvDesYehjvaZG"
 			]
 		}
 	},
