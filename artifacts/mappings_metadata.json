@@ -4,40 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "balances",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "balance",
-						"type": "uint256"
-					}
-				],
-				"name": "setBalance",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -51,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"mapping.sol": "mappings"
+			"functionVisibility.sol": "mappings"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -65,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"mapping.sol": {
-			"keccak256": "0x0ce7c445703577c628296925f13bca901ee44afa9980deeb32e8975166c2ce4a",
+		"functionVisibility.sol": {
+			"keccak256": "0xbff716f8eff927b08630bd8c1e93bc95ca751e7e388e831b28173b5ea6cd3d34",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://a85eae8940cb29c03627df619bfff4ec208fa9a6492aab66e871cd8a7094c58e",
-				"dweb:/ipfs/QmaqGfrf2dH94KBfdHix3FP25btnfdDixFZd7rgcbzKBQH"
+				"bzz-raw://97956649124498aabef4a90e0a83ff625577d92f0306dc2cad642c78aa268115",
+				"dweb:/ipfs/QmdsWgRKWfM11JMJkWdm1EbHiJxUbSvYYVFHbz3jV65jCT"
 			]
 		}
 	},
