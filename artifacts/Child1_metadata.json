@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getVal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"inheritance.sol": "Child1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hashing.sol": {
+			"keccak256": "0x5b1669ce57aa431bfede0b79af90cc97405599d6579a3e340fb16ac7fe8c42c7",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://2a2ff027d5dc667549026390e7070a99f9d329a34cd2fa716edc79b413808fd9",
+				"dweb:/ipfs/Qmc5e3fraGJ3noXgaSeL7gTYJUhAXFz2MutTJpoVPhhKwy"
+			]
+		},
+		"inheritance.sol": {
+			"keccak256": "0x9e8b40941fecd98fec87c90def29f94354279176f88b26f15afb40628e4fa056",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://5e069ffa719c0e94a398f488a62d846417fcc6ff3a46c34be77a6e62e34e379e",
+				"dweb:/ipfs/Qme1upWt1PbeFkhuhP3uDH64utS3b15dfJXxGY2RtMrR7J"
+			]
+		}
+	},
+	"version": 1
+}
