@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"abstractontracts.sol": "base"
+			"abstractontracts.sol": "child"
 		},
 		"evmVersion": "london",
 		"libraries": {},
