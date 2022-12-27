@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "call",
+				"name": "get",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"library.sol": "main"
+			"interfaces.sol": "main"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"library.sol": {
-			"keccak256": "0x694216b3bbc56adec672a6d572cdf8fbc8831efcd2920b11d44b5cfa988a3cf9",
+		"interfaces.sol": {
+			"keccak256": "0xfaacbd9988bbc2522a4a71b0c1a9a75d8a5a4672fef67a66b026312ec845a446",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://06ec1a8a1fd54ff587588dd3d8ad2cb8460b2736aa7490b6209cc4abdd00806a",
-				"dweb:/ipfs/QmPs2bZDD79UAc8XAvJYrCvdXKC4wXLTLaAn8Lw1wDM2mo"
+				"bzz-raw://c826337bcfe9982e91e77a2b2a968ab511c87e81c643e2be3ea023c64127e5fb",
+				"dweb:/ipfs/QmWNDnN9wWAssZw1L14zQZdJLxhWkZtrywKFXrm4vijNvP"
 			]
 		}
 	},

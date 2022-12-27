@@ -49,15 +49,13 @@
 		},
 		"gasEstimates": null,
 		"methodIdentifiers": {
-			"abstractFunction()": "bfe9ef4f",
-			"call()": "28b5e32b",
-			"num()": "4e70b1dc"
+			"get()": "6d4ce63c"
 		}
 	},
 	"abi": [
 		{
 			"inputs": [],
-			"name": "abstractFunction",
+			"name": "get",
 			"outputs": [
 				{
 					"internalType": "uint256",
@@ -66,32 +64,6 @@
 				}
 			],
 			"stateMutability": "pure",
-			"type": "function"
-		},
-		{
-			"inputs": [],
-			"name": "call",
-			"outputs": [
-				{
-					"internalType": "uint256",
-					"name": "",
-					"type": "uint256"
-				}
-			],
-			"stateMutability": "pure",
-			"type": "function"
-		},
-		{
-			"inputs": [],
-			"name": "num",
-			"outputs": [
-				{
-					"internalType": "uint256",
-					"name": "",
-					"type": "uint256"
-				}
-			],
-			"stateMutability": "view",
 			"type": "function"
 		}
 	]

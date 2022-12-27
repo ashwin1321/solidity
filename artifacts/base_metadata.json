@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "abstractFunction",
+				"name": "get",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -16,32 +16,6 @@
 					}
 				],
 				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "call",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -58,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"abstractontracts.sol": "base"
+			"interfaces.sol": "base"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"abstractontracts.sol": {
-			"keccak256": "0x0585e374a088bd242f57710e37989a28ca019a20c5875f0a9939b55cdc596829",
+		"interfaces.sol": {
+			"keccak256": "0xfaacbd9988bbc2522a4a71b0c1a9a75d8a5a4672fef67a66b026312ec845a446",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://445d4f6779ee9a8e44e8481d1ad2413ff5086e2833ed8c1869c7e6ff21ed19cc",
-				"dweb:/ipfs/QmdVVTf2imjtgpxdRsUQjaqH7m5zmFxziFSLqFHhGKNFJ8"
+				"bzz-raw://c826337bcfe9982e91e77a2b2a968ab511c87e81c643e2be3ea023c64127e5fb",
+				"dweb:/ipfs/QmWNDnN9wWAssZw1L14zQZdJLxhWkZtrywKFXrm4vijNvP"
 			]
 		}
 	},

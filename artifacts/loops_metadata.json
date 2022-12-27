@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"virtual and override.sol": "loops"
+			"interfaces.sol": "loops"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"virtual and override.sol": {
-			"keccak256": "0xd9ea7bf55048f69d3efa1fd7317aebe7ce137b1a48c8e9ae44183a5e7ae82846",
+		"interfaces.sol": {
+			"keccak256": "0xe976331582cbf340aa6b1bf828a91ea9f05dc524fb07be69989772b184ab3e9d",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://6b2a6d7148b24886c7367ca1d37867a277ac83d78c480ed83390e5173ca4d218",
-				"dweb:/ipfs/QmRhxubEFtzsGVRUgoVAJCNVyRbvJyv6RkbALhnK6anRf4"
+				"bzz-raw://5764da6595850a1344782ee60a0c3239ca7c95d7e89e20c1449b4d032218c262",
+				"dweb:/ipfs/QmXEYh4RfdVWi8SrX3RRicRZNLQ4zWWAocpYDvf9aNMHLj"
 			]
 		}
 	},
